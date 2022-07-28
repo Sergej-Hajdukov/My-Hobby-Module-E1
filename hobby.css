@@ -1,0 +1,63 @@
+.header{
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-color: #101010;
+}
+
+.logo-container{
+    float: left;
+}
+
+.logo-container h1{
+    color: white;
+    padding: 0px 40px;
+    background-color: #101010;
+}
+
+.navigation{
+    float: right;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 20px 40px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.content{
+    padding: 20px 200px;
+}
+
+.photo-container{
+    float: left;
+    padding: 0px 10px;
+}
+
+.text-container{
+    font-size: 20px;
+}
+
+.contacts{
+    font-size: 20px;
+}
+
+.footer{
+    height: 100%;
+    width: 100%;
+    display: table;
+}
